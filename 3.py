@@ -1,3 +1,7 @@
+"""
+установи python 
+потом в cmd pip install matplotlib
+"""
 import pylab
 def F(q1,q2,e_0,e,r):
     return q1*q2/(4*3.14*e_0*e*pow(r,2))
